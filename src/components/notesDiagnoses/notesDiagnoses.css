@@ -1,0 +1,73 @@
+.container--patientProfileSections {
+    width: 100%;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    padding: 16px;
+}
+
+.container__h2--patientProfileSection {
+    display: block;
+    padding-bottom: 16px;
+}
+
+.container--patientProfileSections--content {
+    display: flex;
+}
+
+.input--notesDiagnoses--text {
+    width: 232px;
+    height: 389px;
+    border-radius: 21px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    padding: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    resize: none;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.input--notesDiagnoses--button {
+    border-radius: 4px;
+    background-color: #00aaff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 11px 16px;
+}
+
+.error {
+    font-size: 12px;
+    color: #ff5600;
+    margin-top: 11px;
+}
+
+.container--notesHistory {
+    width: 562px;
+    height: 471px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    margin-left: 16px;
+    overflow: auto;
+
+}
+
+.container--singleNote {
+    width: 100%;
+    border-bottom: solid 1px #d9d9d9;
+    padding: 16px;
+    display: flex;
+}
+
+.container--dateAuthor {
+    font-size: 12px;
+    color: #1a1a1a;
+    width: 25%;
+}
+
+.container--note {
+    font-size: 14px;
+    color: #1a1a1a;
+    width: 75%;
+}

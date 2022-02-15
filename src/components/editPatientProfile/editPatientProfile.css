@@ -1,0 +1,115 @@
+.container--patientProfileSections {
+    width: 100%;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.container__h2--patientProfileSection {
+    display: block;
+    padding-bottom: 16px;
+}
+
+.container--patientProfileSections--content-editPatientProfile {
+    display: block;
+}
+
+.container--form-items--editPatientProfile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form--item--editPatientProfile {
+    margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.form--item--editPatientProfile--last {
+    margin-right: 0px;
+}
+
+.label--editPatientProfile {
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.input--editPatientProfile--text{
+    width: 190px;
+    height: 32px;
+    border-radius: 4px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+    padding: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    resize: none;
+    display: block;
+}
+
+.input--editPatientProfile--text--readonly{
+    
+    width: 190px;
+    height: 32px;
+    border-radius: 4px;
+    border: solid 1px #d9d9d9;
+    background-color: lightgrey;
+    padding: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    resize: none;
+    display: block;
+}
+
+
+.input--editPatientProfile--button {
+    border-radius: 4px;
+    background-color: #00aaff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 11px 16px;
+}
+
+.input--editPatientProfile--button:hover{
+    color: #00aaff;
+    background-color: white;
+    border: 2px solid #00aaff;
+    padding: 9px 14px;
+}
+
+.error--editPatientProfile {
+    font-size: 12px;
+    color: #ff5600;
+    margin-top: 11px;
+}
+
+.title--edit-history {
+    margin-top: 32px;
+}
+
+.table--editPatientProfile-history {
+    margin-top: 16px;
+    border: 1px solid #d9d9d9;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table--editPatientProfile-history th, td {
+    font-size: 14px;
+    color: #222222;
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+}
+
+.table--editPatientProfile-history th {
+    font-weight: 600;
+    background-color: #d9d9d9;
+    border: 1px solid #222222;
+}
+
+.sucessMessage{
+    color: green;
+    font-size: .9rem;
+}
